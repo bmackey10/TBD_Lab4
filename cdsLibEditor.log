@@ -1,0 +1,15 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/30/2018 21:09 (sjfnl050) $
+\o Sub version:		sub-version  s231 
+\o Arguments:		-display localhost:12.0 -mpssession virtuoso26109 -mpshost student06.cse.nd.edu -namespace CDBA -cdslib /escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBH_Lab3/cds.lib 
+\o Working Directory:	student06.cse.nd.edu:/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBH_Lab3
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "basic"
+\a nrResizeWindow(cdsLibEditor list(20 21 500 400))
+\a nrResizeWindow(cdsLibEditor list(537 22 500 400))
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)
