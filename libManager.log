@@ -1,32 +1,20 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso26109 -mpshost student06.cse.nd.edu 
-\o Working Directory:	student06.cse.nd.edu:/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBH_Lab3
+\o Arguments:		-mpssession virtuoso23420 -mpshost student06.cse.nd.edu 
+\o Working Directory:	student06.cse.nd.edu:/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBD_Lab4
 \o 64-bit offsets
 \o Qt version: 		4.8.5
-\o Log file is "/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBH_Lab3/libManager.log".
+\o Log file is "/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBD_Lab4/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(464 0 786 613))
-\o changeWorkingDir("/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBH_Lab3") unnecessary.
-\o ddSetForcedLib("") unnecessary.
-\o MPS service: map window
 \o Loading customization file "./cdsLibMgr.il"
 \o Loading NCSU Library Manager customizations...done.
+\a nrResizeWindow(cdsLibManager list(146 56 786 613))
+\o changeWorkingDir("/escnfs/courses/fa23-cse-30342.01/dropbox/bmackey/VLSI/TBD_Lab4") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
 \o Library Manager customization server connected.
-\a cdsLibManager->libListBox->value = "cdsDefTechLib"
-\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
-\a cdsLibManager->editLibraryPathButton->value = t
-\o Starting the cdsLibEditor...
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewRefreshButton->value = t
-\o MPS request: refresh library list
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "cdsDefTechLib"
-\a cdsLibManager->libLineEdit->value = "cdsDefTechLib"
+\a nrResizeWindow(cdsLibManager list(617 49 786 613))
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->fileExitButton->value = t
 \o libManager is exiting.
